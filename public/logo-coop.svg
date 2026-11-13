@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 380" width="100%" height="100%" fill="none">
+  <!-- Definitions for gradients and shadows -->
+  <defs>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16a34a" />
+      <stop offset="45%" stop-color="#22c55e" />
+      <stop offset="55%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#1e40af" />
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+    <linearGradient id="dropGrad" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Circular Outer Badge Group -->
+  <g id="badge-circle" filter="url(#shadow)">
+    <!-- Outer Ring -->
+    <circle cx="160" cy="130" r="110" stroke="url(#ringGrad)" stroke-width="14" fill="#ffffff" />
+    
+    <!-- Mountain Silhouette -->
+    <path d="M 85 160 L 115 125 L 132 142 L 155 90 L 178 135 L 200 115 L 235 160" 
+          stroke="#16a34a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    
+    <!-- Secondary inner mountain contour -->
+    <path d="M 120 160 L 155 105 L 188 160" 
+          stroke="#22c55e" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+
+    <!-- Two Pine Trees (Cooperativismo) -->
+    <!-- Pine Tree 1 -->
+    <g transform="translate(175, 115)">
+      <!-- Trunk -->
+      <line x1="12" y1="36" x2="12" y2="44" stroke="#15803d" stroke-width="3" stroke-linecap="round" />
+      <!-- Tree foliage (triangles) -->
+      <polygon points="12,10 4,22 20,22" fill="#15803d" />
+      <polygon points="12,18 2,30 22,30" fill="#15803d" />
+      <polygon points="12,25 0,38 24,38" fill="#16a34a" />
+    </g>
+
+    <!-- Pine Tree 2 -->
+    <g transform="translate(202, 115)">
+      <!-- Trunk -->
+      <line x1="12" y1="36" x2="12" y2="44" stroke="#15803d" stroke-width="3" stroke-linecap="round" />
+      <!-- Tree foliage (triangles) -->
+      <polygon points="12,10 4,22 20,22" fill="#15803d" />
+      <polygon points="12,18 2,30 22,30" fill="#15803d" />
+      <polygon points="12,25 0,38 24,38" fill="#16a34a" />
+    </g>
+
+    <!-- Dynamic Flowing River / Water Waves -->
+    <!-- Wave 1 (Upper primary) -->
+    <path d="M 70 162 C 105 162, 125 145, 160 145 C 195 145, 215 165, 250 165" 
+          stroke="#1d4ed8" stroke-width="6.5" stroke-linecap="round" fill="none" />
+    <!-- Wave 2 (Middle flow) -->
+    <path d="M 78 174 C 115 174, 130 156, 165 156 C 200 156, 218 176, 244 176" 
+          stroke="#0284c7" stroke-width="4.5" stroke-linecap="round" fill="none" />
+    <!-- Wave 3 (Lower wave) -->
+    <path d="M 90 186 C 122 186, 140 170, 175 170 C 205 170, 222 186, 236 186" 
+          stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round" fill="none" />
+
+    <!-- Two Falling Water Droplets on Left -->
+    <!-- Drop 1 (Top Left) -->
+    <g transform="translate(56, 160)">
+      <path d="M 10 0 C 10 0, 0 14, 0 20 C 0 26, 4.5 30, 10 30 C 15.5 30, 20 26, 20 20 C 20 14, 10 0, 10 0 Z" 
+            fill="url(#dropGrad)" stroke="#0284c7" stroke-width="2.5" />
+      <circle cx="7" cy="20" r="2.5" fill="#ffffff" opacity="0.75" />
+    </g>
+    <!-- Drop 2 (Lower Left) -->
+    <g transform="translate(36, 175) scale(0.85)">
+      <path d="M 10 0 C 10 0, 0 14, 0 20 C 0 26, 4.5 30, 10 30 C 15.5 30, 20 26, 20 20 C 20 14, 10 0, 10 0 Z" 
+            fill="url(#dropGrad)" stroke="#0284c7" stroke-width="2.5" />
+      <circle cx="7" cy="20" r="2.5" fill="#ffffff" opacity="0.75" />
+    </g>
+  </g>
+
+  <!-- Typography / Brand Name -->
+  <g id="brand-text" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" fill="#1e3a8a">
+    <text x="160" y="278" font-size="19" letter-spacing="2">COOPERATIVA DE</text>
+    <text x="160" y="303" font-size="19" letter-spacing="1.5">PROVISIÓN DE AGUA</text>
+    <text x="160" y="328" font-size="20" letter-spacing="1.5" fill="#0369a1">POTABLE EL TRAPICHE</text>
+    <text x="160" y="352" font-size="18" letter-spacing="2" fill="#1e3a8a">SAN LUIS LTDA</text>
+  </g>
+</svg>
+
