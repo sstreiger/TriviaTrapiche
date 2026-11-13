@@ -14,241 +14,241 @@ export const QUESTIONS: Question[] = [
   {
     id: 1,
     category: 'Historia y Origen',
-    question: '¿En qué año nació la Cooperativa de Agua Potable de El Trapiche?',
+    question: '¿En qué año nació la Cooperativa de Agua Potable de El Trapiche y qué motivó su fundación?',
     options: [
       {
         id: 'A',
-        text: 'En 1971, fundada por los propios vecinos ante la falta de redes públicas.',
+        text: 'En 1971, cuando los vecinos se organizaron colectivamente ante la falta de redes públicas de saneamiento.',
       },
       {
         id: 'B',
-        text: 'En 1995, como una empresa privada concesionaria del servicio.',
+        text: 'En 1973, creada como ente autárquico tras la inauguración de la primera red troncal por el gobierno provincial.',
       },
       {
         id: 'C',
-        text: 'En 1983, con el regreso de la democracia.',
+        text: 'En 1997, a partir de la escisión de la cooperativa de servicios múltiples para enfocarse únicamente en el agua potable.',
       },
     ],
     correctOptionId: 'A',
     explanation:
-      'La Cooperativa nació en marzo de 1971 cuando la comunidad de vecinos se unió para financiar y construir colectivamente las primeras obras de captación desde el Río Trapiche.',
+      'La Cooperativa nació en marzo de 1971 cuando los vecinos se unieron bajo el modelo asociativo para construir las primeras obras de captación del Río Trapiche. En 1973 se inauguraron formalmente las redes y en 1997 se reformó el estatuto.',
     funFact:
-      'Las redes de agua fueron formalmente habilitadas e inauguradas en octubre de 1973 por el entonces Gobernador Elías Adre.',
+      'Las obras originales fueron habilitadas en octubre de 1973 por el entonces Gobernador Elías Adre, felicitando el esfuerzo colectivo de la comunidad.',
   },
   {
     id: 2,
     category: 'Cooperativismo',
-    question: 'En la Cooperativa de El Trapiche, ¿quiénes son los dueños y cómo se toman las decisiones?',
+    question: 'En la Cooperativa de El Trapiche, ¿quiénes integran la entidad y cómo se toman las decisiones en las asambleas?',
     options: [
       {
         id: 'A',
-        text: 'Los propios vecinos y vecinas asociados: en la asamblea cada persona tiene un voto.',
+        text: 'Todos los vecinos con servicio son considerados asociados plenos, rigiendo el principio democrático de un asociado, un voto.',
       },
       {
         id: 'B',
-        text: 'Un grupo de inversores donde quien tiene más dinero toma las decisiones.',
+        text: 'Los vecinos residentes con servicio, donde los votos en asamblea se ponderan según la cantidad de conexiones y consumo del lote.',
       },
       {
         id: 'C',
-        text: 'Exclusivamente el intendente y los secretarios del municipio.',
+        text: 'Es una sociedad de economía mixta administrada conjuntamente entre los asociados empadronados y representantes del municipio.',
       },
     ],
     correctOptionId: 'A',
     explanation:
-      'En la cooperativa no existen meros "clientes" o "usuarios": todos son asociados con plenos derechos democráticos bajo el principio "Un asociado = Un voto".',
+      'Por estatuto no existe la figura del mero "cliente" o "usuario", sino que todos son asociados con iguales derechos democráticos: "Un asociado = Un voto", sin importar el tamaño de su propiedad.',
     funFact:
       'La cuota social que une formalmente a todos los asociados tiene históricamente un valor puramente simbólico de $1.',
   },
   {
     id: 3,
     category: 'Nuestra Comunidad',
-    question: '¿Qué característica tiene el trabajo de los miembros del Consejo de Administración que gestionan la cooperativa?',
+    question: '¿Qué particularidad estatutaria y de retribución tienen los cargos del Consejo de Administración de la Cooperativa?',
     options: [
       {
         id: 'A',
-        text: 'Cobran un alto sueldo mensual financiado por los impuestos.',
+        text: 'Sus funciones se ejercen estrictamente ad honorem (sin cobrar sueldo) y el estatuto local permite su reelección indefinida.',
       },
       {
         id: 'B',
-        text: 'Desempeñan sus cargos de manera voluntaria y estrictamente "ad honorem" (sin cobrar sueldo).',
+        text: 'Perciben una dieta de representación aprobada en asamblea solo durante los meses de mayor demanda turística en verano.',
       },
       {
         id: 'C',
-        text: 'Son contratados por sorteo entre turistas que visitan la villa.',
+        text: 'El presidente y el tesorero tienen sueldo ejecutivo de gestión, mientras que los vocales y la síndica actúan en forma honoraria.',
       },
     ],
-    correctOptionId: 'B',
+    correctOptionId: 'A',
     explanation:
-      'Los integrantes del Consejo de Administración trabajan ad honorem: dedican su tiempo, esfuerzo y vocación social para cuidar el agua de toda la comunidad sin percibir remuneración.',
+      'Los integrantes del Consejo de Administración trabajan voluntariamente ad honorem, dedicando horas desinteresadas a la gestión comunitaria. Además, el estatuto local habilita la reelección indefinida para dar continuidad a las líneas de trabajo.',
     funFact:
-      'Actualmente el Consejo está presidido por Sandra Rivas y cuenta con un equipo paritario y de fuerte compromiso territorial.',
+      'Actualmente la presidencia está a cargo de Sandra Rivas, en un esquema renovado con fuerte paridad y compromiso vecinal.',
   },
   {
     id: 4,
     category: 'Historia y Origen',
-    question: '¿De dónde se capta históricamente el agua cruda que la cooperativa potabiliza para abastecer a El Trapiche?',
+    question: '¿De dónde proviene el agua cruda que la cooperativa potabiliza y cómo se preservó el conocimiento operativo de la planta?',
     options: [
       {
         id: 'A',
-        text: 'Directamente del Río Trapiche, que baja de nuestras queridas sierras puntanas.',
+        text: 'Se capta del Río Trapiche, apoyándose en la transmisión oral y empírica de operario a operario sobre las crecidas y bajantes.',
       },
       {
         id: 'B',
-        text: 'De un pozo subterráneo traído en camiones cisterna desde Buenos Aires.',
+        text: 'Proviene de una toma directa en el Dique La Florida, regulada por compuertas automáticas operadas por San Luis Agua.',
       },
       {
         id: 'C',
-        text: 'Exclusivamente de camiones aguateros que cargan en la capital.',
+        text: 'Se extrae de pozos profundos de la cuenca subterránea de Río Grande, monitoreados por sensores telemétricos provinciales.',
       },
     ],
     correctOptionId: 'A',
     explanation:
-      'La fuente natural y vital es el Río Trapiche. Los operarios de la planta potabilizadora conocen al detalle sus crecidas y bajantes estacionales para garantizar la calidad del agua.',
+      'La fuente natural histórica es el Río Trapiche. Durante décadas, el "saber hacer" sobre las crecidas, turbidez y filtrado no estuvo en manuales, sino que se transmitió de forma oral y práctica entre los propios trabajadores de la planta.',
     funFact:
-      'El saber sobre el comportamiento del río se fue transmitiendo oralmente de operario a operario a lo largo de décadas.',
+      'Conocer el comportamiento del río serrano es fundamental para anticipar maniobras de potabilización antes de que bajen las crecientes con sedimentos.',
   },
   {
     id: 5,
     category: 'Nuestra Comunidad',
-    question: '¿Quién llevó adelante el valioso trabajo docente de relevamiento cartográfico de la red de agua de El Trapiche?',
+    question: '¿Cómo se resolvió la falta de planos formales de ingeniería sobre las redes subterráneas más antiguas de El Trapiche?',
     options: [
       {
         id: 'A',
-        text: 'Una empresa extranjera con satélites espaciales.',
+        text: 'Mediante un trabajo docente de Elina Lucrecia Leonhart, relevando la memoria oral de operarios sobre un mapa físico.',
       },
       {
         id: 'B',
-        text: 'La docente Elina Lucrecia Leonhart, plasmando la memoria y saber de los operarios locales.',
+        text: 'A través de un convenio de relevamiento georreferenciado con drones realizado por la Dirección de Catastro Provincial.',
       },
       {
         id: 'C',
-        text: 'Un grupo de turistas que visitaban el Dique La Florida.',
+        text: 'A partir de la digitalización de planos históricos archivados en Obras Sanitarias de la Nación desde 1973.',
       },
     ],
-    correctOptionId: 'B',
+    correctOptionId: 'A',
     explanation:
-      'La docente Elina Lucrecia Leonhart (del Centro Educativo N° 5 Senador Alfredo Bertín) coordinó el rescate de la memoria técnica oral de los operarios, volcándola en un mapa físico de la red subterránea.',
+      'Ante el vacío de documentación de ingeniería subterránea, la docente Elina Lucrecia Leonhart (del Centro Educativo N° 5 Senador Alfredo Bertín) coordinó un valioso relevamiento para volcar el conocimiento empírico de los operarios en un mapa físico de redes.',
     funFact:
-      'Ese mapa manual permitió registrar dónde pasan los caños bajo las calles y senderos serranos de nuestro pueblo.',
+      '¡Ese rescate pedagógico y comunitario evitó que se perdiera la memoria de por dónde circulan los caños bajo las calles del pueblo!',
   },
   {
     id: 6,
     category: 'Cooperativismo',
-    question: 'Tras el cese de la cooperativa vecina de Río Grande, ¿qué actitud solidaria adoptó la Cooperativa de El Trapiche?',
+    question: 'Tras la desaparición de la cooperativa vecina de Río Grande, ¿qué medida de resiliencia solidaria adoptó la Cooperativa de El Trapiche?',
     options: [
       {
         id: 'A',
-        text: 'Comenzó a abastecer de agua por turnos a parajes vecinos por cuenta propia y sin subsidio.',
+        text: 'Asumió la provisión por horarios a parajes vecinos, absorbiendo los costos operativos sin subsidios específicos.',
       },
       {
         id: 'B',
-        text: 'Cortó el paso de las mangueras para que nadie de afuera use agua.',
+        text: 'Firmó un convenio de concesión arancelada con San Luis Agua para facturar una tarifa diferencial de emergencia en la zona.',
       },
       {
         id: 'C',
-        text: 'Decidió privatizar el río y cobrar peaje a los parajes vecinos.',
+        text: 'Acordó transferir temporalmente sus cisternas de reserva a la Municipalidad para que suministre agua mediante camiones.',
       },
     ],
     correctOptionId: 'A',
     explanation:
-      'Fiel a los principios de solidaridad de la economía social, la Cooperativa de El Trapiche extendió su ayuda a zonas que habían quedado desamparadas, asumiendo los costos operativos.',
+      'Con profunda vocación social, la Cooperativa de El Trapiche asumió el abastecimiento intermitente a parajes que habían quedado desamparados, afrontando los gastos operativos por cuenta propia y demostrando la solidaridad de la economía social.',
     funFact:
-      'Los vecinos también demuestran esa solidaridad prestando terrenos para acopiar caños o autos particulares para trasladar insumos durante las obras.',
+      'La solidaridad también se evidencia en los vecinos que ceden gratuitamente terrenos para acopiar caños o ponen sus autos particulares para trasladar materiales.',
   },
   {
     id: 7,
     category: 'Nuestra Comunidad',
-    question: '¿Cuáles son algunos de los proyectos de renovación y recambio de cañerías llevados adelante por la Cooperativa?',
+    question: '¿Cuáles son algunos de los proyectos recientes de recambio y mejora de cañerías llevados adelante por la Cooperativa?',
     options: [
       {
         id: 'A',
-        text: 'Proyectos clave como "Las Lomitas", "Ruta 9 - Río Grande" y "Los Sauces".',
+        text: 'Proyectos de renovación de cañerías troncales como "Las Lomitas", "Ruta 9 - Río Grande" y "Los Sauces".',
       },
       {
         id: 'B',
-        text: 'La construcción de una autopista submarina de seis carriles.',
+        text: 'La instalación de módulos de filtrado por ósmosis inversa en las tomas marginales del Dique La Florida.',
       },
       {
         id: 'C',
-        text: 'La compra de un teleférico para transportar botellones de agua.',
+        text: 'El dragado integral y revestimiento en hormigón de los canales de riego en 7 Cajones y Riocito.',
       },
     ],
     correctOptionId: 'A',
     explanation:
-      'Con fondos propios y aportes de infraestructura, la cooperativa llevó a cabo obras de renovación como el cambio de caño maestro en "Las Lomitas" y 700 metros de cañería en Ruta 9.',
+      'La Cooperativa ejecutó obras clave como el recambio de caño maestro en "Las Lomitas" y 700 metros de cañería en Ruta 9, además de presentar el proyecto "Los Sauces" para cañerías de 160mm 10K.',
     funFact:
-      'Estas obras son indispensables para que el agua llegue con buena presión a los hogares y cabañas antes de la temporada de verano.',
+      'Estas inversiones de infraestructura son esenciales para mantener la presión de agua en los sectores más altos ante la alta demanda del verano.',
   },
   {
     id: 8,
     category: 'Cooperativismo',
-    question: '¿A qué espacio provincial decidió unirse la Cooperativa por votación unánime en su asamblea?',
+    question: '¿A qué espacio de articulación provincial decidió unirse formalmente la Cooperativa de El Trapiche por voto de su asamblea?',
     options: [
       {
         id: 'A',
-        text: 'A la nueva Federación de Cooperativas de Servicios Públicos de San Luis.',
+        text: 'A la nueva Federación de Cooperativas de Servicios Públicos a nivel provincial, para sumar escala y defensa técnica conjunta.',
       },
       {
         id: 'B',
-        text: 'A una corporación transnacional de refrescos envasados.',
+        text: 'Al Consorcio Regional de Entes Hídricos Municipales de los departamentos Coronel Pringles y Junín.',
       },
       {
         id: 'C',
-        text: 'A la bolsa de valores internacional de Wall Street.',
+        text: 'A la Cámara Provincial de Empresas Prestadoras de Saneamiento y Servicios Ambientales de San Luis.',
       },
     ],
     correctOptionId: 'A',
     explanation:
-      'La integración federativa fortalece el cooperativismo puntano: permite compartir asistencia técnica, defender el acceso al agua cruda y ganar poder de gestión en conjunto.',
+      'La adhesión a la Federación Provincial de Cooperativas de Servicios Públicos busca crear un bloque común frente a problemáticas compartidas en San Luis, ganar escala, respaldo técnico y mayor poder de diálogo institucional.',
     funFact:
-      'El 6° principio cooperativo es "Cooperación entre cooperativas": la unión hace la fuerza frente a los grandes desafíos de infraestructura.',
+      'El 6° principio cooperativo es la "Cooperación entre cooperativas": la unión horizontal protege la autonomía de las organizaciones comunitarias.',
   },
   {
     id: 9,
     category: 'Nuestra Comunidad',
-    question: '¿Qué nuevo servicio comunitario muy pedido por la comunidad proyecta incorporar la Cooperativa en su estatuto?',
+    question: 'Frente a las necesidades de la comunidad, ¿qué nuevo servicio solidario proyecta incorporar la Cooperativa ampliando su estatuto?',
     options: [
       {
         id: 'A',
-        text: 'Servicios fúnebres y sala velatoria comunitaria en la localidad.',
+        text: 'Servicios fúnebres y sala velatoria comunitaria, ya que hoy los vecinos deben trasladarse fuera de la localidad.',
       },
       {
         id: 'B',
-        text: 'Una pista de aterrizaje para vuelos comerciales internacionales.',
+        text: 'Red de distribución de gas envasado y garrafas sociales para parajes rurales alejados de la red troncal.',
       },
       {
         id: 'C',
-        text: 'Un casino y sala de juegos de azar.',
+        text: 'Un sistema integral de recolección diferenciada y reciclaje de residuos para complejos de cabañas y hosterías.',
       },
     ],
     correctOptionId: 'A',
     explanation:
-      'Actualmente el pueblo no cuenta con sala velatoria y las familias deben viajar a otras localidades en momentos difíciles. Por eso la cooperativa busca ampliar su objeto social para brindar este servicio con sentido solidario.',
+      'El Trapiche no cuenta hoy con sala velatoria propia y los servicios deben brindarse en otras localidades o en salones no acondicionados. Por ello, la asamblea impulsa la ampliación del objeto social para brindar este servicio vital con sentido comunitario.',
     funFact:
-      'Hasta 1997 el estatuto contemplaba "otros servicios públicos", demostrando la capacidad de la cooperativa de dar respuesta a las necesidades reales del pueblo.',
+      'En sus orígenes (1971 a 1997), el estatuto ya contemplaba "otros servicios públicos", lo que demuestra la vocación histórica de responder a lo que el pueblo necesita.',
   },
   {
     id: 10,
     category: 'Cuidado del Agua',
-    question: 'Siendo El Trapiche una villa turística serrana con miles de visitantes en verano, ¿por qué es vital cuidar el agua?',
+    question: '¿Por qué la Cooperativa promueve un consumo solidario mediante una tarifa plana de hasta 30.000 litros con cobro por excedente?',
     options: [
       {
         id: 'A',
-        text: 'Porque el caudal del río es un recurso natural vulnerable y el uso solidario evita que falte presión en las zonas altas.',
+        text: 'Porque la población se multiplica por el turismo estival y el uso desmedido despresuriza los barrios altos y la cuenca serrana.',
       },
       {
         id: 'B',
-        text: 'Porque el agua dulce de las sierras nunca se termina y no hace falta cuidarla.',
+        text: 'Porque el Código de Aguas provincial impone cupos obligatorios a las propiedades que no son de residencia permanente.',
       },
       {
         id: 'C',
-        text: 'Porque solo los turistas tienen derecho a usar el agua en temporada.',
+        text: 'Porque la planta potabilizadora debe detener el bombeo en horarios nocturnos para el reposo de los filtros de arena.',
       },
     ],
     correctOptionId: 'A',
     explanation:
-      'El consumo masivo estacional exige la máxima responsabilidad de residentes y turistas. Cuidar cada gota y no derrochar en regados excesivos asegura agua potable para todos.',
+      'En una villa turística como El Trapiche, donde cerca del 50% de las propiedades corresponden a casas de fin de semana o alquiler turístico, cuidar el agua es indispensable. La tarifa plana de hasta 30.000 litros incentiva el uso consciente para que a ningún vecino le falte presión.',
     funFact:
-      'La cooperativa aplica una tarifa plana con bloque base de 30.000 litros para alentar el consumo responsable y sustentable.',
+      '¡Pequeñas acciones cotidianas, como evitar el riego diurno con manguera o controlar pérdidas en canillas, salvan miles de litros diarios!',
   },
 ];
